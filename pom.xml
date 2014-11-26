@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.carewebframework</groupId>
+		<artifactId>org.carewebframework-parent</artifactId>
+		<version>4.0.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.carewebframework</groupId>
+	<artifactId>org.carewebframework.themes</artifactId>
+	<name>CareWeb Framework Bootstrap Themes</name>
+
+	<properties>
+		<scm.parent>carewebframework-themes</scm.parent>
+	</properties>
+
+	<scm>
+		<connection>${scm.scm}:${scm.base}</connection>
+		<developerConnection>${scm.scm}:${scm.base}</developerConnection>
+		<url>${scm.base}</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.carewebframework</groupId>
+				<artifactId>org.carewebframework.mvn.plugin.themegenerator</artifactId>
+				<configuration>
+					<themes>
+						<theme>
+							<themeName>cerulean</themeName>
+							<themeUri>src/main/themes/cerulean/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>cosmo</themeName>
+							<themeUri>src/main/themes/cosmo/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>cyborg</themeName>
+							<themeUri>src/main/themes/cyborg/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>darkly</themeName>
+							<themeUri>src/main/themes/darkly/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>flatly</themeName>
+							<themeUri>src/main/themes/flatly/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>journal</themeName>
+							<themeUri>src/main/themes/journal/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>lumen</themeName>
+							<themeUri>src/main/themes/lumen/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>paper</themeName>
+							<themeUri>src/main/themes/paper/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>readable</themeName>
+							<themeUri>src/main/themes/readable/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>sandstone</themeName>
+							<themeUri>src/main/themes/sandstone/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>simplex</themeName>
+							<themeUri>src/main/themes/simplex/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>slate</themeName>
+							<themeUri>src/main/themes/slate/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>spacelab</themeName>
+							<themeUri>src/main/themes/spacelab/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>superhero</themeName>
+							<themeUri>src/main/themes/superhero/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>united</themeName>
+							<themeUri>src/main/themes/united/bootstrap.min.css</themeUri>
+						</theme>
+						<theme>
+							<themeName>yeti</themeName>
+							<themeUri>src/main/themes/yeti/bootstrap.min.css</themeUri>
+						</theme>
+					</themes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
