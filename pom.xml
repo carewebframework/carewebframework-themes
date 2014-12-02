@@ -26,6 +26,19 @@
 	<build>
 		<plugins>
 			<plugin>
+			    <groupId>org.lesscss</groupId>
+			    <artifactId>lesscss-maven-plugin</artifactId>
+			    <configuration>
+			        <sourceDirectory>${project.basedir}/src/main/less</sourceDirectory>
+			        <outputDirectory>${project.basedir}/src/main/themes</outputDirectory>
+			        <compress>true</compress>
+			        <outputFileFormat>{fileName}.min.css</outputFileFormat>
+			        <includes>
+			        	<include>**/bootstrap.less</include>
+			        </includes>
+			    </configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.carewebframework</groupId>
 				<artifactId>org.carewebframework.mvn.plugin.themegenerator</artifactId>
 				<configuration>
