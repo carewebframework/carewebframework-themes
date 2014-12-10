@@ -46,66 +46,82 @@
 						<theme>
 							<themeName>cerulean</themeName>
 							<themeUri>src/main/themes/cerulean/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>cosmo</themeName>
 							<themeUri>src/main/themes/cosmo/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>cyborg</themeName>
 							<themeUri>src/main/themes/cyborg/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>darkly</themeName>
 							<themeUri>src/main/themes/darkly/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>flatly</themeName>
 							<themeUri>src/main/themes/flatly/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>journal</themeName>
 							<themeUri>src/main/themes/journal/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>lumen</themeName>
 							<themeUri>src/main/themes/lumen/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>paper</themeName>
 							<themeUri>src/main/themes/paper/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>readable</themeName>
 							<themeUri>src/main/themes/readable/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>sandstone</themeName>
 							<themeUri>src/main/themes/sandstone/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>simplex</themeName>
 							<themeUri>src/main/themes/simplex/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>slate</themeName>
 							<themeUri>src/main/themes/slate/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>spacelab</themeName>
 							<themeUri>src/main/themes/spacelab/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>superhero</themeName>
 							<themeUri>src/main/themes/superhero/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>united</themeName>
 							<themeUri>src/main/themes/united/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 						<theme>
 							<themeName>yeti</themeName>
 							<themeUri>src/main/themes/yeti/bootstrap.min.css</themeUri>
+							<cssMapper>src/main/map/style-map.txt</cssMapper>
 						</theme>
 					</themes>
 				</configuration>
