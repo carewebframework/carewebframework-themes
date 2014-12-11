@@ -1,1 +1,7 @@
-.bg-primary=.panel-primary>.panel-heading .z-menu-content{color:|color|}
+.bg-primary=\
+.panel-primary>.panel-heading .z-menu-content *{color:|color|;text-shadow:none}
+
+.btn-primary:hover=\
+.panel-primary>.panel-heading .z-menu-content:hover,\
+.panel-primary>.panel-heading .z-menu-selected>.z-menu-content{background-color:|background-color|}
+
