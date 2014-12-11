@@ -3,5 +3,5 @@
 
 .btn-primary:hover=\
 .panel-primary>.panel-heading .z-menu-content:hover,\
-.panel-primary>.panel-heading .z-menu-selected>.z-menu-content{background-color:|background-color|}
+.panel-primary>.panel-heading .z-menu-selected>.z-menu-content{background:|background-color|}
 
