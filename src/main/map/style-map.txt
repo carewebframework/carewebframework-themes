@@ -28,3 +28,5 @@
 !.panel .panel-title=\
 .panel>.panel-heading .z-menu-content *{color:#fff;text-shadow:none}
 
+@after@=\
+.panel{margin:0}
