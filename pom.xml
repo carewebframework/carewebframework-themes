@@ -42,6 +42,9 @@
 				<groupId>org.carewebframework</groupId>
 				<artifactId>org.carewebframework.mvn.plugin.themegenerator</artifactId>
 				<configuration>
+					<resources>
+						<resource>src/main/extra</resource>
+					</resources>
 					<themes>
 						<theme>
 							<themeName>cerulean</themeName>
