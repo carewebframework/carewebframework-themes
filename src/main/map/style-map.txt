@@ -28,5 +28,11 @@
 !.panel .panel-title=\
 .panel>.panel-heading .z-menu-content *{color:#fff;text-shadow:none}
 
+.glyphicon-chevron-left:before=\
+glyphicon-chevron-left-double:before {content:|content||content|;letter-spacing:-4px}
+
+.glyphicon-chevron-right:before=\
+glyphicon-chevron-right-double:before {content:|content||content|;letter-spacing:-4px}
+
 @after@=\
 .panel{margin:0}
