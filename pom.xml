@@ -41,7 +41,9 @@
 			<plugin>
 				<groupId>org.carewebframework</groupId>
 				<artifactId>org.carewebframework.mvn.plugin.themegenerator</artifactId>
+				<version>4.0.1-SNAPSHOT</version>
 				<configuration>
+					<noclassifier>true</noclassifier>
 					<resources>
 						<resource>src/main/extra</resource>
 					</resources>
